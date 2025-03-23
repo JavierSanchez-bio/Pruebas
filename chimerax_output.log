@@ -1,0 +1,136 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open Runs/000325_ChimeraProtDiscrepancies/extra/chimerax_script.cxc
+INFO:
+Executing: open 0.cif
+INFO:
+Summary of feedback from opening 0.cif  
+---  
+_warnings_ | Missing entity information. Treating each chain as a separate
+entity.  
+Missing or incomplete entity_poly_seq table. Inferred polymer connectivity.  
+  
+
+INFO:
+Chain information for 0.cif #1  
+---  
+Chain | Description  
+[Aa](cxcmd:select /Aa:26-166 "Select chain") | [No description
+available](cxcmd:sequence chain #1/Aa "Show sequence")  
+[Ab](cxcmd:select /Ab:26-166 "Select chain") [Ae](cxcmd:select /Ae:26-166
+"Select chain") | [No description available](cxcmd:sequence chain #1/Ab#1/Ae
+"Show sequence")  
+[Ac](cxcmd:select /Ac:27-166 "Select chain") | [No description
+available](cxcmd:sequence chain #1/Ac "Show sequence")  
+[Ad](cxcmd:select /Ad:26-164 "Select chain") [Af](cxcmd:select /Af:26-164
+"Select chain") | [No description available](cxcmd:sequence chain #1/Ad#1/Af
+"Show sequence")  
+[Ag](cxcmd:select /Ag:26-164 "Select chain") | [No description
+available](cxcmd:sequence chain #1/Ag "Show sequence")  
+[Ah](cxcmd:select /Ah:26-164 "Select chain") | [No description
+available](cxcmd:sequence chain #1/Ah "Show sequence")  
+[Ai](cxcmd:select /Ai:26-163 "Select chain") | [No description
+available](cxcmd:sequence chain #1/Ai "Show sequence")  
+[Aj](cxcmd:select /Aj:26-162 "Select chain") | [No description
+available](cxcmd:sequence chain #1/Aj "Show sequence")  
+[Ak](cxcmd:select /Ak:26-166 "Select chain") | [No description
+available](cxcmd:sequence chain #1/Ak "Show sequence")  
+[Al](cxcmd:select /Al:26-162 "Select chain") | [No description
+available](cxcmd:sequence chain #1/Al "Show sequence")  
+[Am](cxcmd:select /Am:76-80 "Select chain") | [No description
+available](cxcmd:sequence chain #1/Am "Show sequence")  
+[An](cxcmd:select /An:69-83 "Select chain") | [No description
+available](cxcmd:sequence chain #1/An "Show sequence")  
+[Ao](cxcmd:select /Ao:102-113 "Select chain") [Ap](cxcmd:select /Ap:102-113
+"Select chain") [Aq](cxcmd:select /Aq:102-113 "Select chain")
+[Ar](cxcmd:select /Ar:102-113 "Select chain") | [No description
+available](cxcmd:sequence chain #1/Ao#1/Ap#1/Aq#1/Ar "Show sequence")  
+[As](cxcmd:select /As:104-113 "Select chain") [At](cxcmd:select /At:104-113
+"Select chain") [Au](cxcmd:select /Au:104-113 "Select chain") | [No
+description available](cxcmd:sequence chain #1/As#1/At#1/Au "Show sequence")  
+[Av](cxcmd:select /Av:105-113 "Select chain") [Az](cxcmd:select /Az:105-113
+"Select chain") | [No description available](cxcmd:sequence chain #1/Av#1/Az
+"Show sequence")  
+[Aw](cxcmd:select /Aw:106-113 "Select chain") [Ax](cxcmd:select /Ax:106-113
+"Select chain") [Ay](cxcmd:select /Ay:106-113 "Select chain") | [No
+description available](cxcmd:sequence chain #1/Aw#1/Ax#1/Ay "Show sequence")  
+  
+
+INFO:
+Executing: open 1.cif
+INFO:
+Summary of feedback from opening 1.cif  
+---  
+_warnings_ | Unknown polymer entity '1' near line 104  
+Missing or incomplete entity_poly_seq table. Inferred polymer connectivity.  
+  
+
+INFO:
+Chain information for 1.cif #2  
+---  
+Chain | Description  
+[A](cxcmd:select #2/A:4-178 "Select chain") | [No description
+available](cxcmd:sequence chain #2/A "Show sequence")  
+  
+
+INFO:
+Executing: matchmaker #1 to #2 showAlignment true
+INFO:
+There is a newer version of UCSF ChimeraX available.  Downloads are available
+at the https://www.rbvi.ucsf.edu/chimerax/download.html.
+INFO:
+Parameters  
+---  
+Chain pairing | bb  
+Alignment algorithm | Needleman-Wunsch  
+Similarity matrix | BLOSUM-62  
+SS fraction | 0.3  
+Gap open (HH/SS/other) | 18/18/6  
+Gap extend | 1  
+SS matrix |  |  | H | S | O  
+---|---|---|---  
+H | 6 | -9 | -6  
+S |  | 6 | -6  
+O |  |  | 4  
+Iteration cutoff | 2  
+  
+
+INFO:
+Matchmaker 1.cif, chain A (#2) with 0.cif, chain Aa (#1), sequence alignment score = 230
+STATUS:
+Matchmaker 1.cif, chain A (#2) with 0.cif, chain Aa (#1), sequence alignment score = 230
+INFO:
+Alignment identifier is 1
+INFO:
+Showing conservation header ("seq_conservation" residue attribute) for alignment 1
+INFO:
+Hiding conservation header for alignment 1
+INFO:
+Chains used in RMSD evaluation for alignment 1: 0.cif #1/Aa, 1.cif #2/A
+INFO:
+Showing rmsd header ("seq_rmsd" residue attribute) for alignment 1
+INFO:
+RMSD between 59 pruned atom pairs is 0.778 angstroms; (across all 111 pairs: 29.894)
+STATUS:
+RMSD between 59 pruned atom pairs is 0.778 angstroms; (across all 111 pairs: 29.894)
+INFO:
+
+INFO:
+Executing: sequence header 1 rmsd save /home/jsanchez/ScipionUserData/projects/OneChain/Runs/000325_ChimeraProtDiscrepancies/extra/rmsd_1.txt
+INFO:
+Executing: save /home/jsanchez/ScipionUserData/projects/OneChain/Runs/000325_ChimeraProtDiscrepancies/extra/aligned_model0.cif models #1
+WARNING:
+Not saving entity_poly_seq for non-authoritative sequences
+INFO:
+Executing: save /home/jsanchez/ScipionUserData/projects/OneChain/Runs/000325_ChimeraProtDiscrepancies/extra/aligned_model1.cif models #2
+WARNING:
+Not saving entity_poly_seq for non-authoritative sequences
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

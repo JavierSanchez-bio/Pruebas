@@ -1,0 +1,7 @@
+open 0.cif
+open 1.cif
+matchmaker #1 to #2 showAlignment true
+sequence header 1 rmsd save /home/jsanchez/ScipionUserData/projects/OneChain/Runs/000325_ChimeraProtDiscrepancies/extra/rmsd_1.txt
+save /home/jsanchez/ScipionUserData/projects/OneChain/Runs/000325_ChimeraProtDiscrepancies/extra/aligned_model0.cif models #1
+save /home/jsanchez/ScipionUserData/projects/OneChain/Runs/000325_ChimeraProtDiscrepancies/extra/aligned_model1.cif models #2
+exit
